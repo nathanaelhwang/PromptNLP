@@ -1,0 +1,1 @@
+PromptNLP is a novel approach that leverages large language models (LLMs) to efficiently develop accurate regular expression (regex) code. Code 3T is the best performing code after adapting the regex on Kaiser Permanente, Beth Israel Deaconess Medical Center, and Emory University clinical notes.
