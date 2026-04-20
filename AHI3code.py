@@ -62,7 +62,7 @@ AHI_PATTERNS = [
     re.compile(r'\bAHI\s+was\s+(?P<val>\d+(?:\.\d+)?)', re.IGNORECASE),
     re.compile(r'\bAHI\s+is\s+(?P<val>\d+(?:\.\d+)?)', re.IGNORECASE),
     re.compile(r'\bAHI\s*\(apnea[-\s]?hypopnea index\)\s*,?\s*events per hour of sleep\s*:\s*(?P<val>\d+(?:\.\d+)?)', re.IGNORECASE),
-    re.compile(r'Apnea-?Hypopnnea\s+Index\s*\(AHI\)\s*:\s*(?P<val>\d+(?:\.\d+)?)\s*per\s*hour', re.IGNORECASE),
+    re.compile(r'Apnea-?Hypopnea\s+Index\s*\(AHI\)\s*:\s*(?P<val>\d+(?:\.\d+)?)\s*per\s*hour', re.IGNORECASE),
 ]
 
 # ESS patterns (unchanged)
