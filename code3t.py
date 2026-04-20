@@ -4,8 +4,8 @@ import os
 import pandas as pd
 
 
-INPUT_DATASET  = r"C:\Users\natha\Datasets\NLP_LLM\Emory_AHI_csv.csv"   # <-- set your input CSV path here
-OUTPUT_DATASET = r"Emory_AHI_check2.csv"                    # <-- set your default output CSV path here
+INPUT_DATASET  = ""                      # <-- set your input CSV path here
+OUTPUT_DATASET = "code3t_results.csv"    # <-- set your default output CSV path here
 
 # Encoding fallback behavior when reading CSV
 PRIMARY_ENCODING   = "utf-8"

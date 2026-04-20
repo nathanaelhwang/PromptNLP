@@ -4,8 +4,8 @@ import os
 import pandas as pd
 
 
-INPUT_DATASET  = r"C:\Users\natha\Datasets\BI_NEW200.csv"   # <-- set your input CSV path here
-OUTPUT_DATASET = r"BI_AHI3_results.csv"                    # <-- set your default output CSV path here
+INPUT_DATASET  = ""                      # <-- set your input CSV path here
+OUTPUT_DATASET = "AHI3_results.csv"      # <-- set your default output CSV path here
 
 # Encoding fallback behavior when reading CSV
 PRIMARY_ENCODING   = "utf-8"
